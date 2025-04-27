@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Float</title>
+    <style>
+      div {
+        display: inline-block;
+        width: 40%;
+      }  
+
+      p {
+        font-size: 2em;
+      }
+
+      .cat {
+       float: left;
+       text-align: left;
+       background-color: pink; 
+      }
+
+      .dog {
+        float: right;
+        text-align: right;
+        background-color: purple;
+      }
+
+      img {
+        float: center;
+      }
+
+      footer {
+        clear: both;
+        text-align: center;
+        background-color: beige;
+      }
+    </style>
+</head>
+<body>
+    <div class="cat">
+        <h2>CatCSS</h2>
+
+        <img src="cat.jpeg" alt="cat with ribbon" width="200" height="300"/>
+        <p class="first-paragraph">Pinkie adalah kucing anggun berbulu putih dengan mata biru memesona. Ia suka tampil cantik dengan gaun dan pita,
+             layaknya putri kecil. Setiap hari, Pinkie menikmati sinar matahari di jendela, menyantap ayam rebus dan cemilan tuna favoritnya, 
+             lalu tidur siang di atas bantal empuk. Malam harinya, ia jadi manja dan suka dielus sebelum tidur. 
+             Hidup Pinkie penuh kemewahan dan kasih sayang—karena dia tahu, dia adalah ratu di rumahnya.</p>
+    </div>
+
+    <div class="dog">
+        <h2>DogCSS</h2>
+        <img src="dog.jpeg" alt="dog with pink dress" width="200" height="250"/>
+        <p class="second-paragraph">Lilac adalah anjing kecil berbulu putih lembut yang selalu tampil manis dengan baju pink. Ia suka jalan-jalan ke kafe, makan biskuit keju, dan menyapa orang dengan gaya cerianya. Lilac adalah si kecil penuh cinta dan keceriaan!</p>
+    </div>
+
+    <footer>copyright. this is the footer</footer>
+</body>
+
+</html>
